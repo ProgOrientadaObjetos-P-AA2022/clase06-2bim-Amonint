@@ -20,8 +20,8 @@ public class Principal {
         Ciudad ciudad = new Ciudad("Cuenca", 100123);
         c.insertarCiudad(ciudad);
         
-        for (int i = 0; i < c.obtenerDataCiudad().size(); i++) {
+        /* for (int i = 0; i < c.obtenerDataCiudad().size(); i++) {
             System.out.printf("%s", c.obtenerDataCiudad().get(i));
-        }
+        } */
     }
 }
