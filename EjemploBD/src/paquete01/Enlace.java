@@ -26,7 +26,7 @@ public class Enlace {
 
         try {  
             // db parameters  
-            String url = "jdbc:sqlite:bd/Base01.bd";
+            String url = "jdbc:sqlite:EjemploBD\\BD\\Bbase01.bd";
             // create a connection to the database  
             conn = DriverManager.getConnection(url);  
             // System.out.println(conn.isClosed());
